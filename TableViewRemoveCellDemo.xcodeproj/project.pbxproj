@@ -13,6 +13,7 @@
 		A4C60EA51C2E2A9D008237A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C60EA31C2E2A9D008237A3 /* Main.storyboard */; };
 		A4C60EA71C2E2A9D008237A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C60EA61C2E2A9D008237A3 /* Assets.xcassets */; };
 		A4C60EAA1C2E2A9D008237A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C60EA81C2E2A9D008237A3 /* LaunchScreen.storyboard */; };
+		A4C60EB31C2E2ADA008237A3 /* WMDragDeleteCellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C60EB21C2E2ADA008237A3 /* WMDragDeleteCellTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A4C60EA61C2E2A9D008237A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C60EA91C2E2A9D008237A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C60EAB1C2E2A9D008237A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C60EB11C2E2ADA008237A3 /* WMDragDeleteCellTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDragDeleteCellTableView.h; sourceTree = "<group>"; };
+		A4C60EB21C2E2ADA008237A3 /* WMDragDeleteCellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDragDeleteCellTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		A4C60E991C2E2A9D008237A3 /* TableViewRemoveCellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4C60EB11C2E2ADA008237A3 /* WMDragDeleteCellTableView.h */,
+				A4C60EB21C2E2ADA008237A3 /* WMDragDeleteCellTableView.m */,
 				A4C60E9D1C2E2A9D008237A3 /* AppDelegate.h */,
 				A4C60E9E1C2E2A9D008237A3 /* AppDelegate.m */,
 				A4C60EA01C2E2A9D008237A3 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				A4C60EA21C2E2A9D008237A3 /* ViewController.m in Sources */,
 				A4C60E9F1C2E2A9D008237A3 /* AppDelegate.m in Sources */,
+				A4C60EB31C2E2ADA008237A3 /* WMDragDeleteCellTableView.m in Sources */,
 				A4C60E9C1C2E2A9D008237A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewRemoveCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunricher.TableViewRemoveCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewRemoveCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunricher.TableViewRemoveCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
