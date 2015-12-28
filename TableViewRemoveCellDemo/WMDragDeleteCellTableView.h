@@ -11,7 +11,7 @@
 
 @protocol WMDragDeleteCellTableViewDelegate <NSObject>
 
-@required
+@optional
 
 - (void)dragDeleteCellTableView:(WMDragDeleteCellTableView *)tableView didMoveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)indexPath;
 
